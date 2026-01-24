@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Spam Detector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Email Spam Detection</h1>
+    <p class="subtitle">Check whether an email is Spam or Safe</p>
+
+    <div class="card">
+        <input type="email" id="sender" placeholder="Sender Email">
+
+        <input type="text" id="subject" placeholder="Email Subject">
+
+        <textarea id="body" placeholder="Email Body"></textarea>
+
+        <button onclick="checkSpam()">Analyze Email</button>
+    </div>
+
+    <div id="result" class="result hidden"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
