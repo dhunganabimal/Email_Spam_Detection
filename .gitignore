@@ -6,3 +6,5 @@ share
 pyvenv.cfg
 myvenv
 .ipynb_checkpoints
+.idea
+__pycache__
